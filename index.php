@@ -2,7 +2,7 @@
 //print_r($_SERVER ['REQUEST_URI']);
 
 if ($_SERVER['REQUEST_URI']=="/main/"){
-	header("location: http://vektor-mk.ru");
+	header("location: http://demo.ru");
 	header("HTTP/1.1 404 Not Found");
 	header("Status: 404 Not Found");
 }

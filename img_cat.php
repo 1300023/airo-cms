@@ -65,7 +65,7 @@ if (!isset($_GET['image']))
 $memoryToAllocate	= '100M';
 $defaultQuality		= 90;
 $currentDir			= dirname(__FILE__);
-$cacheDirName		= '/imagecache/';
+$cacheDirName		= '/uploads/imagecache/';
 $cacheDir			= $currentDir . $cacheDirName;
 
 // Images must be local files, so for convenience we strip the domain if it's there
