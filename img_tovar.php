@@ -87,3 +87,4 @@ echo "<META http-equiv='refresh' content='0; url=http://www.vektor-mk.ru'> ";
     //echo "The extention '$ext' is not supported at the moment!";
 }
 ?>
+
