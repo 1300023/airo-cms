@@ -1,0 +1,65 @@
+
+{if $smarty.server.REQUEST_URI == "/"}
+
+
+  <div class="container">
+			<!-- Верхняя панель -->
+            <div class="codrops-top" target="_blank">
+      
+                <div class="clr"></div>
+            </div><!--/ Верхняя панель -->
+			<header>
+	
+			</header>
+			<div id="da-slider" class="da-slider">
+				<div class="da-slide">
+					<h2>Создание сайта</h2>
+					<p>просто – мы создаем сайты согласно четкой линейке тарифов с прозрачными условиями сотрудничества и актуальными фиксированными ценами; выгодно – наша авторская CMS и специализация работников позволяют устанавливать одни из самых низких цен на создание сайтов при неизменном качестве услуг;
+   				</p>
+					<a href="/ocenit_stoimost/" class="da-link">Цены</a>
+					<div class="da-img"><img src="{$templates_patch}images/1.png" alt="image01" /></div>
+				</div>
+				<div class="da-slide">
+					<h2>Простое управление</h2>
+					<p>Нет ничего проще, чем управлять. безопасно – положительная история компании, богатый опыт наших специалистов и уникальная CMS позволяют гарантировать стабильность сотрудничества и невозможность внедрения на разработанный у нас сайт вредоносных программ. </p>
+					<a href="#" class="da-link">Прочитать всё</a>
+					<div class="da-img"><img src="{$templates_patch}images/2.png" alt="image01" /></div>
+				</div>
+				<div class="da-slide">
+					<h2>Революция</h2>
+					<p>Когда нудный проиводственный процесс проедает плешь до печенок, нужно просто устроить революцию. Заказчик будет гневно требовать исполнения сроков, а в ответ получает "А у нас революция! Вообще все может полететь к чертям!". Справедливый гнев заказчика тут же сменится тупым обалдением от постановки ответа на вопрос.</p>
+					<a href="#" class="da-link">Прочитать всё</a>
+					<div class="da-img"><img src="{$templates_patch}images/3.png" alt="image01" /></div>
+				</div>
+				<div class="da-slide">
+					<h2>Контроль качества</h2>
+					<p>Качество можно конролировать как угодно и где угодно. Особенно хорош контроль качества на входе, ибо отсекает тонны г... , пардон, некачественного сырья для вашего замечательного продукта. Ну и на выходе надо качество контролировать - интерсно знать, на что будут жаловаться потребители.</p>
+					<a href="#" class="da-link">Прочитать всё</a>
+					<div class="da-img"><img src="{$templates_patch}images/4.png" alt="image01" /></div>
+				</div>
+				<nav class="da-arrows">
+					<span class="da-arrows-prev"></span>
+					<span class="da-arrows-next"></span>
+				</nav>
+			</div>
+        </div>
+        	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<script type="text/javascript" src="{$templates_patch}js/jquery.cslider.js"></script>
+		
+		
+        {literal}
+
+		<script type="text/javascript">
+			$(function() {
+			
+				$('#da-slider').cslider({
+					autoplay	: false,
+					bgincrement	: 450
+				});
+			
+			});
+		</script>	
+ {/literal}
+
+
+{/if}

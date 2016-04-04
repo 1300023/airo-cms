@@ -1,0 +1,21 @@
+CREATE TABLE IF NOT EXISTS `tree` (
+  `id` int(10) NOT NULL auto_increment,
+  `pid` int(10) NOT NULL,
+  `position` int(10) NOT NULL,
+  `name` text NOT NULL,
+  PRIMARY KEY  (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=cp1251 AUTO_INCREMENT=9 ;
+
+--
+-- Дамп данных таблицы `tree`
+--
+
+INSERT INTO `tree` (`id`, `pid`, `position`, `name`) VALUES
+(1, 0, 0, 'air-host.ru'),
+(2, 1, 0, 'Новости'),
+(3, 1, 0, 'Контент'),
+(4, 1, 2, 'Каталог'),
+(5, 2, 1, 'Новость 1'),
+(6, 2, 0, 'Новость 2'),
+(7, 3, 0, 'Главная страница'),
+(8, 3, 0, 'Контакты');

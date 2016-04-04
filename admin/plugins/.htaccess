@@ -1,0 +1,10 @@
+RewriteRule ^(admin|prices) - [L]
+
+RewriteEngine On
+
+RewriteRule ^([^/]*)/$ /index.php?act=$1 [L]
+RewriteRule ^([^/]*)/([^/]*)/$ /index.php?modules=$1&action=$2 [L]
+RewriteRule ^([^/]*)/([^/]*)/([^/]*)/$ /index.php?modules=$1&action=$2&id=$3 [L]
+RewriteRule ^([^/]*)/([^/]*)/([^/]*)/([^/]*)/$ /index.php?modules=$1&action=$2&id=$3&id1=$4 [L]
+RewriteRule ^([^/]*)/([^/]*)/([^/]*)/([^/]*)/([^/]*)/$ /index.php?modules=$1&action=$2&id=$3&id1=$4&id5=$5 [L]
+RewriteRule ^([^/]*)/([^/]*)/([^/]*)/([^/]*)/([^/]*)/([^/]*)/$ /index.php?modules=$1&action=$2&id=$3&id1=$4&id5=$5&id6=$6  [L]
